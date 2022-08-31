@@ -16,7 +16,7 @@ body {
   }
   
   div#right-column {
-    border-left: black solid 1px;
+    border-left: white solid 1px;
     flex: 1 1 600px;
     padding: 1em;
     line-height: 1.2em;
@@ -36,7 +36,7 @@ body {
   
   #initials,
   h2 {
-    border-bottom: black solid 1px;
+    border-bottom: white solid 1px;
     margin: 1rem 0;
     padding-bottom: 1rem;
   }
