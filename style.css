@@ -3,61 +3,50 @@ body {
   margin: auto;
   padding: 2em;
   max-width: 700px;
-  display: flex;
   align-items: flex-start;
   font-size: 10pt;
   font-weight: lighter;
 }
 
-div#left-column {
-  flex: 1 1 400px;
+div#info {
+  flex: 1 1 150px;
   padding: 1em;
   line-height: 1.5em;
 }
 
-div#right-column {
-  border-left: black solid 1px;
+div#bio {
+  border-right: black solid 1px;
   flex: 1 1 600px;
   padding: 1em;
   line-height: 1.2em;
 }
-#initials,
+
 h1,
 h2 {
   text-align: center;
   font-weight: lighter;
 }
 
-h1,
 h2,
 h3 {
   margin-bottom: 0.25em;
 }
 
-#initials,
 h2 {
-  border-bottom: white solid 1px;
+  border-bottom: black solid 1px;
   margin: 1rem 0;
   padding-bottom: 1rem;
 }
 
-#initials {
-  font-family: sans-serif;
-  font-size: 4em;
-  margin-bottom: 2rem;
-  padding: 2rem;
-}
-
 h1 {
-  margin-bottom: 0.75em;
-}
-
-#job-title {
+  font-size: 16pt;
   font-family: sans-serif;
-  text-align: center;
-  font-size: large;
+  margin: auto;
 }
 
+div#Name {
+  margin-bottom: 5em;
+}
 p {
   font-family: serif;
   margin-top: 0;
@@ -67,4 +56,8 @@ p {
 .date-range {
   font-family: sans-serif;
   font-style: italic;
+}
+
+#container {
+  display: flex;
 }
