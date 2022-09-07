@@ -34,19 +34,23 @@ h3 {
 
 h2 {
   border-bottom: black solid 1px;
+  border-radius: 10%;
   margin: 1rem 0;
   padding-bottom: 1rem;
 }
 
 h1 {
-  font-size: 16pt;
-  font-family: sans-serif;
+  font-size: 16.5pt;
+  font-family: "Times New Roman", Times, serif;
   margin: auto;
+  line-height: 1.5em;
 }
 
 div#Name {
-  margin-bottom: 5em;
+  margin-top: 1.5em;
+  margin-bottom: 4.75em;
 }
+
 p {
   font-family: serif;
   margin-top: 0;
@@ -56,6 +60,12 @@ p {
 .date-range {
   font-family: sans-serif;
   font-style: italic;
+}
+
+div#References {
+  text-align: center;
+  font-style: italic;
+  margin-top: 3.5em;
 }
 
 #container {
